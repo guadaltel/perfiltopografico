@@ -1,0 +1,36 @@
+{
+  "url": {
+    "name": "Perfiltopografico",
+    "separator": "*"
+  },
+  "constructor": "M.plugin.Perfiltopografico",
+  "parameters": [{
+    "type": "object",
+    "properties": [{
+      "type": "simple",
+      "name": "distance",
+      "position": 0
+    }, {
+      "type": "simple",
+      "name": "serviceURL",
+      "position": 1
+    }]
+  }],
+  "files": {
+    "ol": {
+      "scripts": ["perfiltopografico.ol.min.js"],
+      "styles": ["perfiltopografico.ol.min.css"]
+    }
+  },
+  "metadata": {
+    "name": "Perfil Topográfico",
+    "description": "Genera un perfil longitudinal",
+    "text": "A partir de un eje dibujado, el plugin muestra un perfil longitudinal del terreno",
+    "version": "1.0.0",
+    "date": "Enero, 2020",
+    "author": "",
+    "org": "",
+    "tags": "mapea,plugin",
+    "icon": "./facade/assets/icons/icons.svg"
+  }
+}
