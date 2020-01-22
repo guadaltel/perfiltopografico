@@ -29,7 +29,7 @@
     "version": "1.0.0",
     "date": "Enero, 2020",
     "author": "",
-    "org": "",
+    "org": "Instituto de Estadística y Cartografía de la Junta de Andalucía",
     "tags": "mapea,plugin",
     "icon": "./facade/assets/icons/icons.svg"
   }
